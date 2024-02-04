@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt4vision-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["ricklon <rianders@docs.rutgers.edu>"]
+readme = "README.md"
+packages = [{include = "gpt4vision_streamlit"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+openai = "^1.11.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
